@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-docker run --rm -it fmm
+# The passed dir will be mount in the /experiments dir
+
+docker run --rm -it -v $1:/experiments fmm
