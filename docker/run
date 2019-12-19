@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-# The passed dir will be mount in the /experiments dir
+# The passed dir will be mounted in /experiments
 
 docker run --rm -it -v $1:/experiments fmm
