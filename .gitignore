@@ -74,3 +74,6 @@ _deps
 
 *.bin
 *.binary
+
+# Mac stuff
+.DS_Store
