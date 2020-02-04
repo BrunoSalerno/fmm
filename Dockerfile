@@ -18,9 +18,9 @@ RUN cmake .. && make && make install
 
 # Python extension
 
-RUN mkdir -p /app/python/build
-WORKDIR /app/python/build
-RUN cmake .. && make
-ENV PYTHONPATH /app/python/build
+#RUN mkdir -p /app/python/build
+#WORKDIR /app/python/build
+#RUN cmake .. && make
+#ENV PYTHONPATH /app/python/build
 
 WORKDIR /app
