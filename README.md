@@ -8,11 +8,18 @@ This project is an implementation of the fast map matching (FMM) algorithm intro
 - Considerable map matching speed
    - **25,000-45,000 points/sec** (single processor)
    - **200,000 points/sec** (parallel matching with 8 processor)
+- Support GPS input in form of [Shapefile and CSV format](https://github.com/cyang-kth/fmm/wiki/Input-and-output)
+- Configuration passed by XML file or argument list
 - [Customized output fields](https://github.com/cyang-kth/fmm/wiki/Input-and-output) (matched point,traversed path, gps error, etc)
 - Support **city level** road network (100,000 edges tested) and **millions of GPS records**
-- Tested on Ubuntu, :tada: Windows and :tada: Mac platform (C++ program).
-- Python API (a preliminary version tested on Ubuntu and Windows system)
-- :tada: A web application under the `web_demo` folder is designed for map matching on OpenStreetMap. A tutorial is provided at [OSM map matching](https://github.com/cyang-kth/osm_mapmatching) and screenshots are shown below.
+- Tested on Ubuntu, Windows and Mac platform (C++ program).
+- Python API (a preliminary version)
+
+### Get started with fmm
+
+- Map matching with Shapefile or CSV: check the [example](https://github.com/cyang-kth/fmm/tree/master/example)
+- Map matching with OpenStreetMap: check the tutorial at [OSM map matching](https://github.com/cyang-kth/osm_mapmatching)
+- Interactive exploration of map matching: a web application under the `web_demo` folder is designed for map matching on OpenStreetMap and screenshots are shown below.
 
 <img src="img/demo1.gif" width="400"/> <img src="img/demo2.gif" width="400"/>
 
