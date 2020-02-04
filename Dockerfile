@@ -3,7 +3,8 @@ FROM osgeo/gdal:alpine-ultrasmall-latest
 RUN \
   apk update -qq && \
   apk add boost-dev g++ make cmake \
-  swig python-dev python3
+  swig python-dev python3 \
+  bash
 
 ENV HOME /root
 
